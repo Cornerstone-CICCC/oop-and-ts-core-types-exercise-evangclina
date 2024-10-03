@@ -11,7 +11,7 @@ type Person = {
   age: number;
 };
 
-function greetPerson(person): string {
+function greetPerson(person: any): string {
   return `Hello, ${person.firstName} ${person.lastName}! You are ${person.age} years old.`
 }
 
